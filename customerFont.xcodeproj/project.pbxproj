@@ -15,6 +15,8 @@
 		C3B3D7F11C83EDA90097916C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3B3D7EF1C83EDA90097916C /* LaunchScreen.storyboard */; };
 		C3B3D7FC1C83EDA90097916C /* customerFontTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B3D7FB1C83EDA90097916C /* customerFontTests.m */; };
 		C3B3D8071C83EDA90097916C /* customerFontUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B3D8061C83EDA90097916C /* customerFontUITests.m */; };
+		C3B3D8151C83EDD00097916C /* STXIHEI.TTF in Resources */ = {isa = PBXBuildFile; fileRef = C3B3D8141C83EDD00097916C /* STXIHEI.TTF */; };
+		C3B3D8181C83EFC00097916C /* UIFont+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B3D8171C83EFC00097916C /* UIFont+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		C3B3D8021C83EDA90097916C /* customerFontUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = customerFontUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3B3D8061C83EDA90097916C /* customerFontUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = customerFontUITests.m; sourceTree = "<group>"; };
 		C3B3D8081C83EDA90097916C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3B3D8141C83EDD00097916C /* STXIHEI.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = STXIHEI.TTF; sourceTree = "<group>"; };
+		C3B3D8161C83EFC00097916C /* UIFont+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+Extension.h"; sourceTree = "<group>"; };
+		C3B3D8171C83EFC00097916C /* UIFont+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+Extension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +86,7 @@
 		C3B3D7D51C83EDA90097916C = {
 			isa = PBXGroup;
 			children = (
+				C3B3D8141C83EDD00097916C /* STXIHEI.TTF */,
 				C3B3D7E01C83EDA90097916C /* customerFont */,
 				C3B3D7FA1C83EDA90097916C /* customerFontTests */,
 				C3B3D8051C83EDA90097916C /* customerFontUITests */,
@@ -105,6 +111,8 @@
 				C3B3D7E51C83EDA90097916C /* AppDelegate.m */,
 				C3B3D7E71C83EDA90097916C /* ViewController.h */,
 				C3B3D7E81C83EDA90097916C /* ViewController.m */,
+				C3B3D8161C83EFC00097916C /* UIFont+Extension.h */,
+				C3B3D8171C83EFC00097916C /* UIFont+Extension.m */,
 				C3B3D7EA1C83EDA90097916C /* Main.storyboard */,
 				C3B3D7ED1C83EDA90097916C /* Assets.xcassets */,
 				C3B3D7EF1C83EDA90097916C /* LaunchScreen.storyboard */,
@@ -243,6 +251,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3B3D8151C83EDD00097916C /* STXIHEI.TTF in Resources */,
 				C3B3D7F11C83EDA90097916C /* LaunchScreen.storyboard in Resources */,
 				C3B3D7EE1C83EDA90097916C /* Assets.xcassets in Resources */,
 				C3B3D7EC1C83EDA90097916C /* Main.storyboard in Resources */,
@@ -272,6 +281,7 @@
 			files = (
 				C3B3D7E91C83EDA90097916C /* ViewController.m in Sources */,
 				C3B3D7E61C83EDA90097916C /* AppDelegate.m in Sources */,
+				C3B3D8181C83EFC00097916C /* UIFont+Extension.m in Sources */,
 				C3B3D7E31C83EDA90097916C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -363,7 +373,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -400,7 +410,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
