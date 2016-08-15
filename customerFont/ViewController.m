@@ -32,15 +32,22 @@
     UILabel *myLabel1 = [[UILabel alloc] initWithFrame:CGRectMake(20,250, 200, 30)];
     myLabel1.text = @"我的好兄弟%%%123";
     //    myLabel1.font = [UIFont systemFontOfSize:18];
-    myLabel1.font = [UIFont fontWithName:@"STHeitiTC-Medium"size:18];
+    myLabel1.font = [UIFont fontWithName:@"PingFangSC-Regular"size:18];
     [self.view addSubview:myLabel1];
     
     UILabel *myLabel2 = [[UILabel alloc] initWithFrame:CGRectMake(20,300, 200, 30)];
     myLabel2.text = @"我的好兄弟%%%123";
     //        myLabel1.font = [UIFont systemFontOfSize:18];
-    myLabel2.font = [UIFont fontWithName:@"STHeitiTC-Light"size:18];
+    myLabel2.font = [UIFont fontWithName:@"PingFangSC-Medium"size:18];
     [self.view addSubview:myLabel2];
-
+//Font: PingFangSC-Ultralight
+//Font: PingFangSC-Regular
+//Font: PingFangSC-Semibold
+//Font: PingFangSC-Thin
+//Font: PingFangSC-Light
+//Font: PingFangSC-Medium
+    
+    
 }
 
 - (void)printFont
